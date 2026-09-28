@@ -1,0 +1,10 @@
+body { margin: 0; padding: 32px 20px; background: #f8f7fc; color: #242333; font-family: system-ui, sans-serif; }
+main { max-width: 800px; margin: 0 auto; }
+section { margin: 28px 0; padding: 20px; background: white; border: 1px solid #ddd9ed; border-radius: 8px; }
+button { padding: 10px 16px; border: 0; border-radius: 6px; background: #5141a3; color: white; cursor: pointer; font: inherit; }
+button:hover, button:focus-visible { background: #362879; }
+.resultado { overflow-x: auto; margin-top: 16px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #c9c4dc; padding: 12px; text-align: left; }
+th { background: #eae6fa; }
+tr:nth-child(even) { background: #f7f5fd; }
