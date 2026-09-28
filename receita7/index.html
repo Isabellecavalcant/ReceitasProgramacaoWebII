@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receita 7 — Fetch e JSON</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Receita 7 — Fetch e JSON</h1>
+    <p>Dados carregados da API JSONPlaceholder. Escolha o que deseja consultar:</p>
+
+    <section aria-labelledby="usuariosTitulo">
+      <h2 id="usuariosTitulo">Usuários</h2>
+      <button id="buscarUsuarios" type="button">Buscar usuários</button>
+      <p id="usuariosMensagem" role="status" aria-live="polite"></p>
+      <div id="usuariosResultado" class="resultado"></div>
+    </section>
+
+    <section aria-labelledby="publicacoesTitulo">
+      <h2 id="publicacoesTitulo">Publicações</h2>
+      <button id="buscarPublicacoes" type="button">Buscar publicações</button>
+      <p id="publicacoesMensagem" role="status" aria-live="polite"></p>
+      <div id="publicacoesResultado" class="resultado"></div>
+    </section>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
