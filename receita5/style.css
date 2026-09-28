@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #242333; }
+nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+nav a { color: #312275; background: #eeeafd; padding: 10px 14px; border-radius: 6px; }
+nav a:hover, nav a:focus-visible { background: #ded7fb; }
+.sorvete { border: 1px solid #bbb5d7; background: #f5f2ff; padding: 12px; margin: 8px 0; border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #bbb5d7; text-align: left; padding: 12px; }
+th { background: #eeeafd; }
