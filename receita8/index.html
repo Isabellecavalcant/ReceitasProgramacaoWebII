@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receita 8 — Promises</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Receita 8 — Promises</h1>
+    <p>Os dados vêm do JSONPlaceholder usando <code>fetch().then().catch()</code>.</p>
+    <section>
+      <h2>Usuários</h2>
+      <button id="buscarUsuarios" type="button">Buscar usuários</button>
+      <p id="usuariosMensagem" role="status" aria-live="polite"></p>
+      <div id="usuariosResultado" class="resultado"></div>
+    </section>
+    <section>
+      <h2>Publicações</h2>
+      <button id="buscarPublicacoes" type="button">Buscar publicações</button>
+      <p id="publicacoesMensagem" role="status" aria-live="polite"></p>
+      <div id="publicacoesResultado" class="resultado"></div>
+    </section>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
